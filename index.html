@@ -665,7 +665,8 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>     <!-- schedule  widget begin -->
+  <script src="assets/js/main.js"></script>     
+       <!-- schedule  widget begin -->
     <script>
       (async (s,ch,e,du,le) => {
         du = ch.getElementsByTagName("head")[0];
@@ -673,12 +674,13 @@
         le.async = 1;
         le.src = e;
         le.onload = async () => {
-          let data = await s.wg.init("schedule","qa", 4580, 446, "schedulely", { width: "1000px", height: "650px" }, "sendType=iframe");
+          let data = await s.wg.init("schedule","ap1", 17855, 752, "schedulely", { width: "1000px", height: "650px" }, "sendType=iframe");
         };
         du.appendChild(le);
       })(window, document,  "https://pushly.s3.ap-south-1.amazonaws.com/lib/widget.min.js");
     </script>
-     <!-- schedule  widget end --> 
+     <!-- schedule  widget end -->
+    
 </body>
 
 </html>
